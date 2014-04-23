@@ -16,13 +16,13 @@ class jobActions extends sfActions
       ->createQuery('a')
       ->execute();
 
-    $this->testing = 'aaasss';
+    $this->bar = ['a', 'b'];
   }
 
   public function executeShow(sfWebRequest $request)
   {
-    $this->jobeet_job = Doctrine_Core::getTable('JobeetJob')->find(array($request->getParameter('id')));
-    $this->forward404Unless($this->jobeet_job);
+    $this->job = Doctrine_Core::getTable('JobeetJob')->find(array($request->getParameter('id')));
+    $this->forward404Unless($this->job);
   }
 
   public function executeNew(sfWebRequest $request)

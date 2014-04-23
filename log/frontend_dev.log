@@ -1,0 +1,22 @@
+Apr 23 13:29:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 23 13:29:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 23 13:29:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 23 13:29:09 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 23 13:29:11 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 23 13:29:11 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 23 13:29:11 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 23 13:29:11 symfony [info] {main} Get slot "title"
+Apr 23 13:29:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 23 13:29:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 23 13:29:12 symfony [info] {sfWebResponse} Send content (32576 o)
+Apr 23 13:33:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 23 13:33:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 23 13:33:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 23 13:33:21 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 23 13:33:23 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 23 13:33:23 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 23 13:33:23 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 23 13:33:23 symfony [info] {main} Get slot "title"
+Apr 23 13:33:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 23 13:33:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 23 13:33:24 symfony [info] {sfWebResponse} Send content (32711 o)
