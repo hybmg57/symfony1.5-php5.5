@@ -20,3 +20,243 @@ Apr 23 13:33:23 symfony [info] {main} Get slot "title"
 Apr 23 13:33:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
 Apr 23 13:33:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
 Apr 23 13:33:24 symfony [info] {sfWebResponse} Send content (32711 o)
+Apr 24 14:06:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:06:12 symfony [info] {myUser} Automatic user logout due to timeout
+Apr 24 14:06:12 symfony [info] {myUser} User is not authenticated
+Apr 24 14:06:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:06:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:06:12 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:06:13 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:06:14 symfony [err] {sfException} Route "job_show_user" is not defined.
+Apr 24 14:06:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/1 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '1',)
+Apr 24 14:06:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:06:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:06:19 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Apr 24 14:06:21 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/showSuccess.php"
+Apr 24 14:06:21 symfony [info] {main} Set slot "title"
+Apr 24 14:06:21 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:06:22 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:06:22 symfony [info] {main} Get slot "title"
+Apr 24 14:06:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:06:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:06:22 symfony [info] {sfWebResponse} Send content (33256 o)
+Apr 24 14:06:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:06:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:06:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:06:40 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:06:41 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:06:42 symfony [err] {sfException} Route "job_show_user" is not defined.
+Apr 24 14:06:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:06:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:06:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:06:55 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:06:56 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:06:57 symfony [err] {sfException} Route "job_show_user" is not defined.
+Apr 24 14:07:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:07:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:07:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:07:21 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:07:22 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:07:23 symfony [err] {sfException} Route "job_show_user" is not defined.
+Apr 24 14:08:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:08:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:08:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:08:26 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:08:28 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:08:29 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:08:29 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:08:29 symfony [info] {main} Get slot "title"
+Apr 24 14:08:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:08:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:08:29 symfony [info] {sfWebResponse} Send content (32646 o)
+Apr 24 14:08:35 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company/:location/:id/:position) for /job/Sensio+Labs/Paris%2C+France/1/Web+Developer with parameters array (  'module' => 'job',  'action' => 'show',  'company' => 'Sensio Labs',  'location' => 'Paris, France',  'id' => '1',  'position' => 'Web Developer',)
+Apr 24 14:08:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:08:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:08:36 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Apr 24 14:08:38 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/showSuccess.php"
+Apr 24 14:08:38 symfony [info] {main} Set slot "title"
+Apr 24 14:08:39 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:08:39 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:08:39 symfony [info] {main} Get slot "title"
+Apr 24 14:08:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:08:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:08:39 symfony [info] {sfWebResponse} Send content (33678 o)
+Apr 24 14:09:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:09:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:09:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:09:04 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:09:06 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:09:06 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:09:06 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:09:06 symfony [info] {main} Get slot "title"
+Apr 24 14:09:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:09:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:09:06 symfony [info] {sfWebResponse} Send content (32580 o)
+Apr 24 14:12:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:12:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:12:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:12:48 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:12:50 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:12:50 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:12:50 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:12:50 symfony [info] {main} Get slot "title"
+Apr 24 14:12:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:12:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:12:50 symfony [info] {sfWebResponse} Send content (32645 o)
+Apr 24 14:12:57 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company/:location/:id/:position) for /job/Sensio+Labs/Paris%2C+France/1/Web+Developer with parameters array (  'module' => 'job',  'action' => 'show',  'company' => 'Sensio Labs',  'location' => 'Paris, France',  'id' => '1',  'position' => 'Web Developer',)
+Apr 24 14:12:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:12:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:12:58 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Apr 24 14:13:00 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/showSuccess.php"
+Apr 24 14:13:00 symfony [info] {main} Set slot "title"
+Apr 24 14:13:00 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:13:00 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:13:00 symfony [info] {main} Get slot "title"
+Apr 24 14:13:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:13:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:13:00 symfony [info] {sfWebResponse} Send content (33677 o)
+Apr 24 14:13:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:13:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:13:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:13:45 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:13:47 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:13:47 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:13:47 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:13:47 symfony [info] {main} Get slot "title"
+Apr 24 14:13:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:13:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:13:47 symfony [info] {sfWebResponse} Send content (32582 o)
+Apr 24 14:13:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:13:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:13:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:13:54 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:13:55 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:13:56 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:13:56 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:13:56 symfony [info] {main} Get slot "title"
+Apr 24 14:13:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:13:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:13:56 symfony [info] {sfWebResponse} Send content (32646 o)
+Apr 24 14:14:04 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company/:location/:id/:position) for /job/Sensio+Labs/Paris%2C+France/1/Web+Developer with parameters array (  'module' => 'job',  'action' => 'show',  'company' => 'Sensio Labs',  'location' => 'Paris, France',  'id' => '1',  'position' => 'Web Developer',)
+Apr 24 14:14:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:14:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:14:04 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Apr 24 14:14:06 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/showSuccess.php"
+Apr 24 14:14:07 symfony [info] {main} Set slot "title"
+Apr 24 14:14:07 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:14:07 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:14:07 symfony [info] {main} Get slot "title"
+Apr 24 14:14:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:14:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:14:07 symfony [info] {sfWebResponse} Send content (33678 o)
+Apr 24 14:15:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:15:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:15:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:15:27 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:15:29 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:15:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:15:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:15:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:15:35 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:15:36 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:16:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:16:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:16:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:16:11 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:16:13 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:16:13 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:16:13 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:16:13 symfony [info] {main} Get slot "title"
+Apr 24 14:16:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:16:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:16:13 symfony [info] {sfWebResponse} Send content (32646 o)
+Apr 24 14:16:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:16:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:16:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:16:46 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:16:48 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:16:49 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:16:49 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:16:49 symfony [info] {main} Get slot "title"
+Apr 24 14:16:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:16:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:16:49 symfony [info] {sfWebResponse} Send content (32639 o)
+Apr 24 14:17:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:17:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:17:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:17:15 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:17:16 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:17:17 symfony [err] {InvalidArgumentException} The "/job/:company_slug/:location_slug/:id/:position_slug" route has some missing mandatory parameters (:position_slug).
+Apr 24 14:17:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:17:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:17:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:17:55 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:17:57 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:17:57 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:17:57 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:17:57 symfony [info] {main} Get slot "title"
+Apr 24 14:17:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:17:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:17:57 symfony [info] {sfWebResponse} Send content (32640 o)
+Apr 24 14:18:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:18:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:18:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:18:20 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:18:22 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:18:23 symfony [err] {InvalidArgumentException} The "/job/:company_slug/:location_slug/:id/:position_slugs" route has some missing mandatory parameters (:position_slugs).
+Apr 24 14:18:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:18:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:18:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:18:58 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:19:00 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:19:01 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:19:01 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:19:01 symfony [info] {main} Get slot "title"
+Apr 24 14:19:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:19:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:19:01 symfony [info] {sfWebResponse} Send content (32640 o)
+Apr 24 14:21:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:21:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:21:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:21:18 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:21:20 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:21:20 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:21:20 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:21:20 symfony [info] {main} Get slot "title"
+Apr 24 14:21:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:21:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:21:20 symfony [info] {sfWebResponse} Send content (32640 o)
+Apr 24 14:21:25 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Apr 24 14:21:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:21:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:21:25 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Apr 24 14:21:27 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/showSuccess.php"
+Apr 24 14:21:27 symfony [info] {main} Set slot "title"
+Apr 24 14:21:28 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:21:28 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:21:28 symfony [info] {main} Get slot "title"
+Apr 24 14:21:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:21:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:21:28 symfony [info] {sfWebResponse} Send content (33673 o)
+Apr 24 14:21:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:21:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:21:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:21:34 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:21:36 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:21:36 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:21:36 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:21:36 symfony [info] {main} Get slot "title"
+Apr 24 14:21:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:21:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:21:36 symfony [info] {sfWebResponse} Send content (32576 o)
+Apr 24 14:22:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 24 14:22:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 24 14:22:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 24 14:22:04 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 24 14:22:06 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 24 14:22:06 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:22:06 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 24 14:22:06 symfony [info] {main} Get slot "title"
+Apr 24 14:22:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 24 14:22:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 24 14:22:06 symfony [info] {sfWebResponse} Send content (32640 o)
