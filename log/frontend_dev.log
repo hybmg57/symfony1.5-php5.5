@@ -7620,3 +7620,14 @@ Apr 27 14:44:07 symfony [info] {main} Get slot "title"
 Apr 27 14:44:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
 Apr 27 14:44:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
 Apr 27 14:44:07 symfony [info] {sfWebResponse} Send content (33538 o)
+Apr 27 14:56:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 27 14:56:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 27 14:56:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 27 14:56:05 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 27 14:56:07 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 27 14:56:08 symfony [info] {sfPHPView} Decorate content with "/vagrant/apps/frontend/templates/layout.php"
+Apr 27 14:56:08 symfony [info] {sfPHPView} Render "/vagrant/apps/frontend/templates/layout.php"
+Apr 27 14:56:08 symfony [info] {main} Get slot "title"
+Apr 27 14:56:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 27 14:56:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 27 14:56:08 symfony [info] {sfWebResponse} Send content (33539 o)
