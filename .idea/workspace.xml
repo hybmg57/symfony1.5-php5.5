@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="423f191b-5246-495c-b3d4-9edcd13b9b6a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/frontend_dev.log" afterPath="$PROJECT_DIR$/log/frontend_dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="symfony1.iws" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="JobeetJobTable.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetJobTable.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.3429395" vertical-offset="0" max-vertical-offset="694">
+            <state line="25" column="7" selection-start="546" selection-end="546" vertical-scroll-proportion="0.61239195" vertical-offset="0" max-vertical-offset="694">
               <folding />
             </state>
           </provider>
@@ -84,6 +84,7 @@
         <option value="$PROJECT_DIR$/config/doctrine/schema.yml" />
         <option value="$PROJECT_DIR$/lib/model/doctrine/JobeetCategory.class.php" />
         <option value="$PROJECT_DIR$/lib/model/doctrine/JobeetJobTable.class.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -427,9 +428,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetJobTable.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.3429395" vertical-offset="0" max-vertical-offset="694">
+        <state line="25" column="7" selection-start="546" selection-end="546" vertical-scroll-proportion="0.61239195" vertical-offset="0" max-vertical-offset="694">
           <folding />
         </state>
       </provider>
